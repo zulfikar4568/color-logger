@@ -1,0 +1,46 @@
+{
+  "name": "color-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test && npm run lint",
+    "preversion" : "npm run lint",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulfikar4568/color-logger.git"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": ["Color", "Logger"],
+  "author": "M . Zulfikar Isnaen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zulfikar4568/color-logger/issues"
+  },
+  "homepage": "https://github.com/zulfikar4568/color-logger#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "winston": "^3.8.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
