@@ -3,6 +3,8 @@ Custom Nodejs Logger using winston
 
 ![Logger Example](./images/loggerExample.png)
 
+[NPM Package](https://www.npmjs.com/package/@zulfikar4568/color-logger)
+
 ## Install
 ```bash
 # Using yarn
@@ -36,7 +38,7 @@ Handle Rejections
 ```ts
 import { awesomeLogger } from "./utils/logger";
 
-const logger = awesomeLogger('My Application :','silly', true, 'my-app-log', 'error', true, true, true, true)
+const logger = awesomeLogger('My Application :','silly', true, 'logs/','my-app-log', 'error', true, true, true, true)
 
 Promise.reject('Rejected! ')
 ```
@@ -45,7 +47,7 @@ Handle Exceptions
 ```ts
 import { awesomeLogger } from "./utils/logger";
 
-const logger = awesomeLogger('My Application :','silly', true, 'my-app-log', 'error', true, true, true, true)
+const logger = awesomeLogger('My Application :','silly', true, 'logs/','my-app-log', 'error', true, true, true, true)
 
 throw new Error('Error sue')
 ```
