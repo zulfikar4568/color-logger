@@ -17,6 +17,10 @@
     "type": "git",
     "url": "https://github.com/zulfikar4568/color-logger.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "lib/**/*"
   ],
