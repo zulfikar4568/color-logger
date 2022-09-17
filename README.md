@@ -1,5 +1,17 @@
-# Color Logger
-Custom Nodejs Logger using winston
+<h1 align="center" style="border-bottom: none;">Simple Color Logger</h1>
+<h3 align="center">Custom Nodejs Logger using winston</h3>
+<p align="center">
+  <a href="https://github.com/zulfikar4568/color-logger/actions/workflows/publish.yml?query=branch%3Amaster">
+    <img alt="Build states" src="https://github.com/zulfikar4568/color-logger/actions/workflows/publish.yml/badge.svg">
+  </a>
+  <a href="#badge">
+    <img alt="semantic-release: angular" src="https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release">
+  </a>
+  <a href="https://www.npmjs.com/package/@zulfikar4568/color-logger">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/@zulfikar4568/color-logger/latest.svg">
+  </a>
+</p>
+
 
 ![Logger Example](./images/loggerExample.png)
 
