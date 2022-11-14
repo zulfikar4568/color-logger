@@ -1,6 +1,6 @@
 {
   "name": "@zulfikar4568/color-logger",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
