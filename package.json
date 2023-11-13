@@ -39,7 +39,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "^8.0.0",
     "jest": "^28.1.1",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^15.1.0",
     "prettier": "^3.0.2",
     "ts-jest": "^28.0.5",
     "tslint": "^6.1.3",
